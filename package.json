@@ -1,0 +1,16 @@
+{
+  "name": "messenger-signal-server",
+  "version": "1.0.0",
+  "description": "Сигнальный сервер для Интернет-Мессенджера (PeerJS)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "peer": "^1.0.1",
+    "express": "^4.19.2"
+  }
+}
